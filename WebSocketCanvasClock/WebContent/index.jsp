@@ -78,7 +78,6 @@
 
 			function drawTime(ctx, radius){
 				var now = new Date(Number(last_time));
-				console.log("now" + now);
 				var hour = now.getHours();
 				var minute = now.getMinutes();
 				var second = now.getSeconds();
